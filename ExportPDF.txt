@@ -1,0 +1,22 @@
+ExportPDF - Java based application for Rockwood clinic to export patient data from PDF files and convert to Microsoft Excel file
+compile instructions: javac -cp /usr/share/java/*:. *.java
+current version 1.2
+
+Java custom class files:
+ExportPDF.java
+MSExcel.java
+ReadPDFWriteExcel.java
+
+JAR files used:
+commons-discovery-0.4.jar
+commons-logging-api-1.1.1.jar
+fontbox-1.6.0.jar
+jxl-2.6.12.jar
+pdfbox-1.6.0.jar
+
+
+Ver1.2:
+* Extract text from PDF and dump into CSV file
+* Convert from CSV file to Excel
+
+
